@@ -5,7 +5,7 @@ import logo from "../assets//D0ne-logos_white.png";
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between  bg-gray-900 h-16  text-white items-center">
+      <div className="flex justify-between  bg-gray-900 h-16  text-white items-center sticky top-0 z-40">
         <div className="text-2xl ml-5 cursor-pointer text-gray-300">
           <FaUserAlt />
         </div>
