@@ -33,7 +33,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="m-1">
+      <div className="m-2">
         <div className="mb-2">
           <img src="https://guccn8.com/assets/invite-DhyNTWDu.png" alt="" />
         </div>
