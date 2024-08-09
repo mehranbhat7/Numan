@@ -1,8 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Components/Navbar";
+import Slider from "./Components/Slider";
+import Movingtext from "./Components/Movingtext";
 
 function App() {
-  return <div>lets go numaan 01</div>;
+  return (
+    <>
+      <Navbar />
+      <Slider />
+      <Movingtext />
+    </>
+  );
 }
 
 export default App;
