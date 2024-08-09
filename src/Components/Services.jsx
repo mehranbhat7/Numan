@@ -7,6 +7,10 @@ import { IoMdDownload } from "react-icons/io";
 const Services = () => {
   return (
     <>
+      <div className=" bg-white">
+        {" "}
+        <hr />
+      </div>
       <div className="flex items-center justify-around bg-gray-900 text-white h-28 mt-1 text-center">
         <div className="text-5xl  flex flex-col items-center text-green-300 cursor-pointer">
           <FaMoneyBillAlt />

@@ -19,8 +19,8 @@ const Movingtext = ({
   });
 
   return (
-    <div className="overflow-hidden whitespace-nowrap w-full  bg-gray-900 text-gray-300  text-sm h-12 flex items-center font-bold">
-      <animated.div style={scrolling} className="inline-block">
+    <div className="overflow-hidden whitespace-nowrap w-full  bg-gray-900 text-gray-300  text-sm h-12 flex items-center font-bold ">
+      <animated.div style={scrolling} className="inline-block mt-1.5">
         {text}
       </animated.div>
     </div>
