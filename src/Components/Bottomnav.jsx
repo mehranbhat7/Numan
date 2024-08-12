@@ -43,14 +43,38 @@ const Bottomnav = () => {
             Market
           </div>
         </Link>
-        <div className="text-2xl  flex flex-col items-center text-gray-300 cursor-pointer">
+        <Link
+          to="/team"
+          className={`text-2xl flex flex-col items-center cursor-pointer ${
+            location.pathname === "/team" ? "text-green-300" : "text-gray-300"
+          }`}
+        >
           <FaUsers />
-          <div className="text-gray-400 text-sm  font-light mt-1">Team</div>
-        </div>
-        <div className="text-2xl  flex flex-col items-center text-gray-300 cursor-pointer">
+          <div
+            className={`text-sm font-light mt-1 ${
+              location.pathname === "/team" ? "text-green-400" : "text-gray-400"
+            }`}
+          >
+            Team
+          </div>
+        </Link>
+        <Link
+          to="/assets"
+          className={`text-2xl flex flex-col items-center cursor-pointer ${
+            location.pathname === "/assets" ? "text-green-300" : "text-gray-300"
+          }`}
+        >
           <GiWallet />
-          <div className="text-gray-400 text-sm  font-light mt-1">Assets</div>
-        </div>
+          <div
+            className={`text-sm font-light mt-1 ${
+              location.pathname === "/assets"
+                ? "text-green-400"
+                : "text-gray-400"
+            }`}
+          >
+            Assets
+          </div>
+        </Link>
         <div className="text-2xl  flex flex-col items-center text-gray-300 cursor-pointer">
           <FaUser />
           <div className="text-gray-400 text-sm  font-light mt-1">My</div>
